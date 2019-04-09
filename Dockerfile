@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y \
 ADD nginx.conf /etc/nginx/
 ADD php.conf /etc/nginx/sites-available/
 
-RUN ln -s /etc/nginx/sites-available/symfony.conf /etc/nginx/sites-enabled/symfony
+RUN ln -s /etc/nginx/sites-available/php.conf /etc/nginx/sites-enabled/php
 RUN rm /etc/nginx/sites-enabled/default
 RUN usermod -u 1000 www-data
 
