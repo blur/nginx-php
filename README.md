@@ -1,4 +1,7 @@
 # nginx-php
+![](https://img.shields.io/docker/cloud/build/elisiondesign/nginx-php.svg) 
+![](https://img.shields.io/docker/pulls/elisiondesign/nginx-php.svg)
+
 Nginx image as proxy to php service.
 
 ## Dependencies
